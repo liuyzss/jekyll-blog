@@ -1,38 +1,21 @@
-<footer class="site-footer">
+<footer id="footer" class="footer">
+    <div class="footer-inner">
+        <div class="copyright" >
+            &copy;  2014 - <span itemprop="copyrightYear">2016</span>
+            <span class="with-love"> <i class="fa fa-heart"></i> </span>
+            <span class="author" itemprop="copyrightHolder">EZLippi</span>
+        </div>
+        <div class="powered-by">
+            由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+        </div>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+        <div class="theme-info"> 
+            托管在 - <a class="theme-link" href="https://github.com/EZLippi/EZLippi.github.io"> Github </a>
+        </div>
+        <div class="theme-info">
+            <span id="busuanzi_container_site_pv"> &nbsp; | &nbsp;本站总访问量<span id="busuanzi_value_site_pv"></span>次 </span>
+        </div>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script>
     </div>
-
-  </div>
-
 </footer>
+<div class="back-to-top"></div>

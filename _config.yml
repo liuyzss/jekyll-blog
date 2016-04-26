@@ -19,3 +19,7 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+toc_levels: 1..2
+
+gems: [jekyll-paginate]
+paginate: 10
