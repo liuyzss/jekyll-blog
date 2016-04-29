@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-04-19 09:45:54 +0800
 categories: jekyll update
+tags: hello hi
 ---
 
 # 这是一级标题#

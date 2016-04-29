@@ -83,7 +83,6 @@ $(document).ready(function () {
         sidebarEl: $('.sidebar'),
         isSidebarVisible: false,
         init: function () {
-            debugger;
             this.toggleEl.on('click', this.clickHandler.bind(this));
             this.toggleEl.on('mouseenter', this.mouseEnterHandler.bind(this));
             this.toggleEl.on('mouseleave', this.mouseLeaveHandler.bind(this));
@@ -113,10 +112,7 @@ $(document).ready(function () {
         },
         showSidebar: function () {
             var self = this;
-
-            debugger;
             sidebarToggleLines.close();
-
             this.sidebarEl.velocity('stop').velocity({
                 width: SIDEBAR_WIDTH
             }, {
